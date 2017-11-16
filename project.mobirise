@@ -1,0 +1,742 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.11.1",
+    "versionPublish": "3.12.1",
+    "name": "APV Wine Tasting & Elvis Tribute 2016",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "favicon": "@PROJECT_PATH@/assets/images/logo-128x128-19.png",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_name": "menu2",
+          "_styles": {
+            ".navbar-header a": {
+              "font-size": "23px"
+            }
+          },
+          "_anchor": "menu2-6",
+          "_params": {
+            "logo": true,
+            "brandName": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/new-apv-lifestyle-logo-970x400pxl-970x400-4.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Association of Poinciana Villages Lifestyle Events and Activities Programs",
+              "link": "https://poincianalifestyle.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brandName": "<a data-app-btn=\"true\" data-app-selector=\".navbar-header a\" href=\"./index.html\" class=\"navbar-brand brand\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Wine Tasting &amp; Elvis<br></a>",
+          "buttons": "<li><a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#form5-4\" data-toolbar=\"-mbrBtnMove\">Newsletter</a></li>",
+          "itemsRight": "<li class=\"dropdown1\"><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#top\"><span class=\"mdi-action-home mbr-iconfont mbr-iconfont-btn\"></span>Home</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#gallery1-8\"><span class=\"mdi-action-assignment-ind mbr-iconfont mbr-iconfont-btn\"></span>Photos</a> <a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#header13-7\"><span class=\"mdi-av-videocam mbr-iconfont mbr-iconfont-btn\"></span>Videos</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#contacts4-2\"><span class=\"mdi-content-mail mbr-iconfont mbr-iconfont-btn\"></span>Contact</a></li>"
+        },
+        {
+          "_styles": {
+            "p, span": {
+              "color": "#fff"
+            },
+            "SPAN": {
+              "font-size": "17px"
+            }
+          },
+          "alias": "unicore/components",
+          "_name": "testimonials4",
+          "_anchor": "testimonials4-5",
+          "_params": {
+            "bgImageRadio2": true,
+            "bgImage2": "@PROJECT_PATH@/assets/images/apv-north-community-building-exterior-elvis-1527x1893-72.png",
+            "overlay2": false,
+            "overlayOpacity2": 0.75,
+            "overlayColor2": "#151515",
+            "bgColor1": "#222"
+          },
+          "text1_1": "\"The evening was great! Elvis was truly entertaining to a wide variety of age groups. The wine was fabulous - I had two small samples, as I am not a drinker! To my surprise, I won a very nice bottle of wine, but then gave it away to an adorable newly-wed couple I met tonight!<br> <br>I'm really looking forward to the July 1st event. I registered when it was first announced and am definitely passing the email along to all of my friends! \"<br>",
+          "text1_2": "Regina V.<br>APV Homeowner<br>",
+          "text2_1": "\"WOW! &nbsp;I love this community - the energy I am sharing with each resident in the audience here is absolutely empowering to me as a performer...\"",
+          "text2_2": "Stevie G. <br>Elvis Impersonator",
+          "text3_1": "\"It is not often that I give appreciation or even a thank you, only when it is deserved. Great job on the sponsorship for this wine tasting event, it is time that the commercial business here start to help out this community, after all it is this community that helps their business run and stay open...\"",
+          "text3_2": "Donna K.<br>APV Homeowner<br>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "header5",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header5-17",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/elvis-background-1-3024x1900-32.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showForm": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/UBCV7j4pt1Y",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": "on"
+            }
+          },
+          "title1": "Appreciate The Now",
+          "text": "People don't realize what they had till it's gone. Like President Kennedy, there was no one like him, the Beatles, and my man Elvis Presley. I was the Elvis of boxing...<br><br>- Muhammad Ali<br>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-182157-4032x3024-8-2000x1500-19.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-182157-4032x3024-8.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-182832-4032x3024-77-2000x1500-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-182832-4032x3024-77.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-182431-4032x3024-61-2000x1500-10.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-182431-4032x3024-61.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-183459-4032x3024-8-2000x1500-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-183459-4032x3024-8.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-194625-4032x3024-57-2000x1500-75.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-194625-4032x3024-57.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-191431-4032x3024-49-2000x1500-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-191431-4032x3024-49.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-201615-4032x3024-38-2000x1500-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-201615-4032x3024-38.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-200553-4032x3024-63-2000x1500-85.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-200553-4032x3024-63.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-10",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "header5",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header5-18",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/elvis-background-3-3649x1908-89.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showForm": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/x3D_t5q82-A",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Raw Talent Rocks!",
+          "text": "What I like about Elvis is the same thing I like about James Brown, Michael Jackson, Prince. These guys, back in the day, there was no smoke and mirrors. It was just raw talent. They would step out onstage and command an audience. Talk about awesome...<br><br>- Bruno Mars<br>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-20-20-03-pro-3072x1728-44-2000x1125-70.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-20-20-03-pro-3072x1728-44.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-18-44-38-pro-3072x1728-2-2000x1125-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-18-44-38-pro-3072x1728-2.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-20-21-02-pro-3072x1728-52-2000x1125-45.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-20-21-02-pro-3072x1728-52.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-18-44-59-pro-highres-5376x3024-35-2000x1125-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-18-44-59-pro-highres-5376x3024-35.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-18-56-57-pro-3072x1728-30-2000x1125-48.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-18-56-57-pro-3072x1728-30.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-20-21-47-pro-highres-5376x3024-15-2000x1125-94.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-20-21-47-pro-highres-5376x3024-15.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-18-46-17-pro-highres-5376x3024-46-2000x1125-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-18-46-17-pro-highres-5376x3024-46.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-20-22-32-pro-highres-5376x3024-2-2000x1125-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-20-22-32-pro-highres-5376x3024-2.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-8",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "header5",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header5-19",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/elvis-background-5-2268x1600-24.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showForm": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/QBjaJJUFDsE",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Get Your Influence On",
+          "text": "Every performer who ever performed in rock and roll or even close to it is lying if they tell you that they weren't influenced in some way or another by Elvis Presley. He turned the world around...<br><br>- Mac Davis<br>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-203544-3024x4032-13-2000x2667-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-203544-3024x4032-13.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-183402-3024x4032-57-2000x2667-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-183402-3024x4032-57.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-191123-3024x4032-78-2000x2667-69.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-191123-3024x4032-78.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-191253-3024x4032-46-2000x2667-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-191253-3024x4032-46.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-191319-3024x4032-99-2000x2667-9.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-191319-3024x4032-99.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-191408-3024x4032-95-2000x2667-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-191408-3024x4032-95.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-191214-3024x4032-31-2000x2667-21.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-191214-3024x4032-31.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-191337-3024x4032-99-2000x2667-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-191337-3024x4032-99.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-12",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "header5",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header5-20",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/elvis-background-4-3408x1900-55.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showForm": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/xq4XNiAD25o",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Tupelo Swagger, Baby",
+          "text": "The first record I ever listened to was Elvis Presley, and I remember thinking, 'Man this guy is cool!' The swagger he had really helped my confidence, because he really made me think that a white boy could make music like this...<br><br>- Jesse McCartney<br>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-182909-3024x4032-11-2000x2667-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-182909-3024x4032-11.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-182922-3024x4032-55-2000x2667-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-182922-3024x4032-55.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-182202-3024x4032-39-2000x2667-69.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-182202-3024x4032-39.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160617-183410-3024x4032-42-2000x2667-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160617-183410-3024x4032-42.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-18-45-38-pro-1728x3072-97-1728x3072-52.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-18-45-38-pro-1728x3072-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-18-46-01-pro-1728x3072-67-1728x3072-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-18-46-01-pro-1728x3072-67.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-18-46-44-pro-1728x3072-59-1728x3072-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-18-46-44-pro-1728x3072-59.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160617-19-01-22-pro-1728x3072-67-1728x3072-37.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160617-19-01-22-pro-1728x3072-67.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-14",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "form5",
+          "_styles": {
+            ".form-control-label": {}
+          },
+          "_anchor": "form5-4",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "E-subscribe to the LIFESTYLE newsletter",
+          "text": "We hate spam too - So we only send you warm fuzzies about upcoming community events!",
+          "form": {
+            "action": "jazz.cannon@fsresidential.com",
+            "alerts": {
+              "success": "Thank you for e-subscribing to the APV LIFESTYLE Events Newsletter!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-block btn-primary\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">e-Subscribe</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "contacts4",
+          "coord": [
+            28.1298421,
+            -81.46968879999997
+          ],
+          "_anchor": "contacts4-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#333",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "googleMap": {
+              "placeId": "ChIJtcaxrqlZwokRfwmmibzPsTU",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "title1": "Lifestyle Events",
+          "text1": "The Association of Poinciana Villages &amp; FirstService Residential Management are introducing new community Lifestyle Programs which are designed to foster friendships among neighbors and create lasting family memories!",
+          "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/AssociationofPoincianaVillages\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-twitter\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Dribble\" target=\"_blank\" href=\"https://dribbble.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-dribbble\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-google-plus\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "APV Lifestyle Program Hours:<br>Monday - Friday &nbsp; 6AM - 6PM",
+          "title": "Have questions? &nbsp;We've Got Answers!",
+          "form": {
+            "action": "jazz.cannon@fsresidential.com",
+            "alerts": {
+              "success": "Thank you for your kind question!  Our APV LIFESTYLE Team typlically respond in less than 24 hours..."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Your Full Name Here"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address Here"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message Here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Question<i class=\"fa fa-paper-plane-o\"></i></a>"
+        },
+        {
+          "_inherit": "soundcloud1",
+          "alias": "soundcloud",
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F257546168",
+          "_name": "soundcloud2",
+          "_anchor": "soundcloud2-0",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "sound": "https://soundcloud.com/elvissonymusic/got-my-mojo-working-keep-your",
+            "autoplay": true,
+            "bgColor": "#fff",
+            "fullWidth": false
+          },
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F257546168&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "footer1",
+          "_anchor": "footer1-1",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#111",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "© 2016 Association of Poinciana Villages - All rights reserved."
+        }
+      ]
+    }
+  }
+}
